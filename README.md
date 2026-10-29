@@ -81,11 +81,6 @@ akan gagal dengan `DPY-3015`. Pakai mode *thick* dengan Oracle Instant Client
 | Ekspansi kueri 196× | hanya 4,16× biaya |
 | Keterbatasan: korelasi antarkolom | gaji terbuka memulihkan golongan 100% pada **semua** skema |
 
-## Template makalah
-
-`src/build_paper.py` membaca `results/IEEE_template.docx`, yaitu hasil konversi
-template `.doc` dosen. Konversi sekali dengan Word:
-
 ```powershell
 $w = New-Object -ComObject Word.Application
 $d = $w.Documents.Open("<path>\IEEE_template_makalah.doc", $false, $true)
