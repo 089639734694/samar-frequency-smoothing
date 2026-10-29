@@ -80,10 +80,3 @@ akan gagal dengan `DPY-3015`. Pakai mode *thick* dengan Oracle Instant Client
 | Biaya eksekusi Oracle | buffer gets = 119,4 + 1,962·k |
 | Ekspansi kueri 196× | hanya 4,16× biaya |
 | Keterbatasan: korelasi antarkolom | gaji terbuka memulihkan golongan 100% pada **semua** skema |
-
-```powershell
-$w = New-Object -ComObject Word.Application
-$d = $w.Documents.Open("<path>\IEEE_template_makalah.doc", $false, $true)
-$d.SaveAs2("<repo>\results\IEEE_template.docx", 16)
-$d.Close($false); $w.Quit()
-```
