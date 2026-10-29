@@ -1,0 +1,12 @@
+# Salin berkas ini menjadi  config/oracle.ini  lalu isi sesuai instance dev Anda.
+# JANGAN commit oracle.ini ke repo. Berkas .ini asli sudah masuk .gitignore.
+#
+# Gunakan user/schema TERPISAH khusus uji (mis. SAMAR_TEST) yang punya hak
+# CREATE TABLE. Skrip hanya membuat dan mengisi tabel sintetis berawalan
+# SAMAR_  dan tidak pernah menyentuh tabel ERP mana pun.
+
+[oracle]
+user = SAMAR_TEST
+password = GANTI_PASSWORD
+# DSN format: host:port/service_name  (mode thin, tanpa Instant Client)
+dsn = localhost:1521/XEPDB1

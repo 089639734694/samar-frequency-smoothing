@@ -1,0 +1,8 @@
+# Dependensi SAMAR (butuh Python 64-bit; wheel 32-bit tidak tersedia untuk numpy/scipy)
+numpy
+scipy
+cryptography
+matplotlib
+python-docx
+# Hanya untuk pengukuran Oracle (oracle_bench.py)
+oracledb

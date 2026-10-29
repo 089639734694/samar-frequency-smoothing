@@ -1,0 +1,16 @@
+# Kredensial Oracle - JANGAN pernah di-commit
+config/oracle.ini
+
+# Cache Python
+__pycache__/
+*.pyc
+
+# Deliverable makalah & video (bukan source code; dibuat ulang via build_paper.py)
+Makalah-*.docx
+Makalah-*.pdf
+Naskah-*.docx
+Naskah-*.pdf
+
+# Pratinjau & render halaman (artefak sementara, dibuat ulang)
+results/pratinjau.pdf
+results/pages/

@@ -1,0 +1,7 @@
+kode,skema,k_ekspansi,insert_rps,tabel_mb,indeks_mb,lat_med_ms,lat_p95_ms
+B0,Plaintext (kontrol),1.00,112945,3.000,3.000,15.0118,17.9380
+B1,Masking konsisten (hash),1.00,174143,4.000,3.000,14.9028,16.0268
+B2,Enkripsi deterministik AES-SIV,1.00,52087,7.000,7.000,14.8823,15.5704
+B3,AES-GCM acak + blind index HMAC,1.00,134571,3.000,3.000,14.8861,15.5621
+V1,Homofonik acak (ablasi),78.70,67333,6.000,5.000,14.5601,28.0192
+P,SAMAR,78.70,87831,6.000,5.000,14.3367,22.2661
